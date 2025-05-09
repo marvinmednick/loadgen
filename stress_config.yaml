@@ -1,0 +1,14 @@
+stress:
+  cpu_min: 1
+  cpu_max: 4
+  io_min: 1
+  io_max: 3
+  vm_min: 1
+  vm_max: 2
+  vm_bytes_min: 128
+  vm_bytes_max: 1024
+  stress_timeout_min: 10    # Minimum duration for each stress session (seconds)
+  stress_timeout_max: 60    # Maximum duration for each stress session
+  sleep_interval_min: 30    # Minimum pause between sessions
+  sleep_interval_max: 40   # Maximum pause between sessions
+
